@@ -149,9 +149,18 @@
 }
 
 .service-item {
-  padding: 30px;
-  text-align: center;
-  background: var(--secondary);
+    padding: 30px;
+    text-align: center;
+    background: var(--secondary);
+    display: flex; /********** from this line was added from chatgbt to center image and text **********/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    /********** added this part too to center the badges with the text. **********/
+.service-item img {
+        display: block;
+        margin: 0 auto;
 }
 
 .service-item i {
