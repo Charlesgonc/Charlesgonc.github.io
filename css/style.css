@@ -158,6 +158,8 @@
     justify-content: center;
 }
     /********** added this part too to center the badges with the text. **********/
+
+
 .service-item img {
         display: block;
         margin: 0 auto;
